@@ -3,6 +3,7 @@ color:blue;
 background: rgb(189, 140, 245);
 margin:0px;
 font-family: "Gravitas One",sans-serif;
+margin-bottom: 100px;
 }
 header{
 border-bottom: solid 2px black;
@@ -26,8 +27,9 @@ h1{
 p{
     font-size: 20px;
 }
-img{
-    height: 200px;
+.categorias-videos{
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .chamada-videos{
     display:flex;
@@ -37,4 +39,16 @@ img{
 .categoria{
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 50px;
+}
+.categorias-videos img{
+opacity:0.5;
+height:200px;
+}
+.categorias-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid #c062ff
+}
+.categoria h2{
+    color:red
 }
